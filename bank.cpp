@@ -12,7 +12,7 @@ int main()
     int choice;
 
     do {
-    std::cout<<"*************bank************\n";
+    std::cout<<" *************bank************\n";
 
     std::cout<<"1. balance\n";
     std::cout<<"2. deposit\n";
@@ -21,6 +21,7 @@ int main()
     std::cin>>choice;
 
     std::cin.clear();
+    fflush(stdin);
 
     switch (choice)
     {
