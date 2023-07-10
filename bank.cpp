@@ -12,7 +12,6 @@ int main()
     int choice;
 
     do {
-    std::cout<<"*****************************\n";
     std::cout<<"*************bank************\n";
 
     std::cout<<"1. balance\n";
